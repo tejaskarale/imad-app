@@ -13,7 +13,8 @@ body {
 }
 
 .bold {
-    font-weight: normal;
+    font-weight: bolder
+    ;
 }
 
 .img-medium {
