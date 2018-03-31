@@ -1,2 +1,2 @@
 console.log('Loaded!');
-alert('hey this is private page');
+alert('hey how are u?');
