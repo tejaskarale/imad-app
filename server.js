@@ -16,6 +16,10 @@ app.get('/ui/style.css', function (req, res) {
 app.get('/teja', function (req, res) {
     res.sendFile(path.join(__dirname, 'article1.html'));
 });
+app.get('/tany', function (req, res) {
+    res.sendFile(path.join(__dirname, 'ui', 'article2.html'));
+   
+});
 
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
